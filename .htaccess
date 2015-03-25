@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+IndexIgnore *
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+
+RewriteRule ^secret-test$ /ogm/
+RewriteRule ^secret-test/$ /ogm/
